@@ -272,7 +272,7 @@
   margin: 0;
   padding: 0;
 }
-.top-nav__item {
+.top-nav__link {
   display: block;
   list-style: none;
   text-decoration: none;
@@ -285,7 +285,7 @@
   margin: 0;
   text-transform: capitalize;
 }
-.top-nav__itemli {
+.top-nav__item {
   margin-right: 30px;
 }
 .topitemli:last-child {
@@ -325,7 +325,7 @@
   padding: 0;
   list-style: none;
 }
-.nav-item {
+.nav-item__link {
   display: block;
   padding-right: 15px;
   padding-left: 15px;
@@ -411,7 +411,7 @@
   font-weight: 300;
   text-align: center;
 }
-.setting__icon::before {
+.mart-item--setting::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -422,7 +422,7 @@
   background-image: url(../images/icons/settings.webp);
   background-repeat: no-repeat;
 }
-.moneyback__icon::before {
+.mart-item--moneyback::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -433,7 +433,7 @@
   background-image: url(../images/icons/moneyback.webp);
   background-repeat: no-repeat;
 }
-.worldshiping__icon::before {
+.mart-item--worldshiping::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -444,7 +444,7 @@
   background-image: url(../images/icons/worldshiping.webp);
   background-repeat: no-repeat;
 }
-.compass__icon::before {
+.mart-item--compass::before {
   display: flex;
   margin-bottom: 60px;
   margin-left: auto;
@@ -594,25 +594,25 @@
 .actmenu-button:nth-last-child(-n + 2) {
   margin-right: 0;
 }
-.like__logo {
+.actmenu-button--like {
   background-image: url(../images/icons/like.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 25px, 25px;
 }
-.mix__logo {
+.actmenu-button--mix {
   background-image: url(../images/icons/mix.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 25px, 25px;
 }
-.clock__logo {
+.actmenu-button--clock {
   background-image: url(../images/icons/clock.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 27px, 27px;
 }
-.addtc__logo {
+.actmenu-button--addtc {
   position: relative;
   font-size: 14px;
   letter-spacing: 0px;
@@ -624,7 +624,7 @@
   text-transform: uppercase;
   padding-left: 30px;
 }
-.addtc__logo::before {
+.actmenu-button--addtc::before {
   position: absolute;
   background-image: url(../images/icons/basket.webp);
   background-size: 25px, 25px;
@@ -667,7 +667,7 @@
   margin: 0;
   margin-bottom: 20px;
 }
-.readmore-button {
+.readmore-link {
   display: inline-block;
   background-color: var(--blogbutton-color);
   text-decoration: none;
