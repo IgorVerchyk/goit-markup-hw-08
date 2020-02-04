@@ -35,28 +35,28 @@
   margin: 0 auto;
 }
 .accent:hover,
-:focus {
+.accent:focus {
   color: var(--accent-color);
 }
 .accent2:hover,
-:focus {
+.accent2:focus {
   color: var(--accentp-color);
 }
 .accent3:hover,
-:focus {
+.accent3:focus {
   color: var(--mart-tcolor);
 }
 .accent4:hover,
-:focus {
+.accent4:focus {
   background-color: var(--accentp-color);
 }
 .accent5:hover,
-:focus {
+.accent5:focus {
   background-color: var(--accent-color);
   border: 1px solid var(--accentp-color);
 }
 .accent6:hover,
-:focus {
+.accent6:focus {
   background-color: var(--list-color);
 }
 .secbackground {
